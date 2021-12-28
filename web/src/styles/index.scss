@@ -1,0 +1,41 @@
+@import '~bootstrap/scss/bootstrap';
+
+body {
+  background-color: '#f6f3ef';
+}
+
+.banner-image {
+  max-height: 300px;
+}
+
+.text-content {
+  margin: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .btn-container {
+    margin: 2rem 0rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    button {
+      width: fit-content;
+      border-radius: 2rem;
+    }
+  }
+}
+
+.title {
+  text-align: center;
+  margin: 1rem 0px;
+}
+
+.alert-container {
+  position: sticky;
+  padding: 2rem;
+  top: 0;
+}
+
+.form {
+  margin: 2rem;
+}

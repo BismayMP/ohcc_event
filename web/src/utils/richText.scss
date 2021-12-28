@@ -1,0 +1,27 @@
+.figure {
+  max-width: 875px;
+}
+
+.block-content {
+  .link {
+    color: inherit;
+    &:hover {
+      color: inherit;
+      cursor: pointer;
+    }
+  }
+}
+
+.link {
+  text-decoration: underline;
+  color: inherit;
+  &:hover {
+    color: inherit;
+    cursor: pointer;
+  }
+}
+
+.rich-text-ctaButtonContainer {
+  display: flex;
+  margin: 2rem 0rem;
+}
